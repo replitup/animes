@@ -30,7 +30,7 @@ const videos = [
 
     const thumbnail = document.createElement('div');
     thumbnail.className = 'thumbnail';
-    thumbnail.style.backgroundImage = `url(${video.thumbnail})`;
+    // thumbnail.style.backgroundImage = `url(${video.thumbnail})`;
 
     const videoTime = document.createElement('span');
     videoTime.className = 'video-time';
